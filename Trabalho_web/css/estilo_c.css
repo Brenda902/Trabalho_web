@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-image: url(../img/wood-g97eca7324_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#main{
+    background-color: #edf1f2;
+    width: min-content;
+    height: max-content;
+    margin: auto;
+}
+
+#container{
+display: flex;
+}
+
+#box_2{
+    margin: 15px;
+}
+
+#nav{
+    border-top: 10px solid #1b7b34;
+    height: 28px;
+    background-color: #b5e582;
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav li{
+    float: left;
+}
+
+#nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.active{
+    background-color: #1b7b34;
+    color: white;
+}
+
+#nav a:hover:not(.active){
+    background-color: #1b7b34;
+    color: white;
+    transition: 0.4s;
+}
+
+.container_2{
+    display: flex;
+}
+
+.img_box{
+    margin: 10px;
+}
+
+.img_box img{
+    width: 300px;
+    height: 200px;
+}
+
+h2{
+    padding: 3px;
+}
+
+h3{
+    border-bottom: 1px solid black; 
+}
+
+#footer{
+    height: 30px;
+    color: white;
+    background-color: #1b7b34;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
