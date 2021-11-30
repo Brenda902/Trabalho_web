@@ -1,0 +1,63 @@
+body{
+    background-image:url(../img/marigold-g7c36c1b54_1920.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#form_box{
+    margin: auto;
+    width: max-content;
+    padding: 15px;;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+    color: rebeccapurple;
+}
+
+#i_nome, #i_mail, #i_senha, #i_con_senha{
+    width: 350px;
+    height: 30px;
+    border: 1px solid rgb(139, 117, 161);
+    border-radius: 5px;
+}
+
+#i_data, #i_turma{
+    width: 250px;
+    height: 40px;
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+    color: rebeccapurple;
+}
+
+.f_line{
+display: grid;
+}
+
+.f_line span{
+    padding: 15px;
+}
+
+.f_line label{
+    display: grid;
+}
+
+.end_box{
+    margin: auto;
+    text-align: center;
+    width: max-content;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 10px;
+}

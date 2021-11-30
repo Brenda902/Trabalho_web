@@ -61,6 +61,12 @@ display: flex;
     display: flex;
 }
 
+.container_2 ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
 .img_box{
     margin: 10px;
 }
@@ -76,6 +82,12 @@ h2{
 
 h3{
     border-bottom: 1px solid black; 
+}
+
+.dot_box{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
 }
 
 #footer{
